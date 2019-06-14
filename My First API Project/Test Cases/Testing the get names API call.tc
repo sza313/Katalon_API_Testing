@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>Testing the get names API call</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>41526ac5-3d85-4aa9-88db-b850e78d85bd</testCaseGuid>
+   <variable>
+      <defaultValue>'hun'</defaultValue>
+      <description></description>
+      <id>cf0a5030-163f-4f2b-825b-4406f6622ef2</id>
+      <masked>false</masked>
+      <name>country</name>
+   </variable>
+   <variable>
+      <defaultValue>'[Hungary]'</defaultValue>
+      <description></description>
+      <id>2242c9b9-2e84-4478-94c7-6ab6ae6badd0</id>
+      <masked>false</masked>
+      <name>expectedCountryName</name>
+   </variable>
+   <variable>
+      <defaultValue>'[HU]'</defaultValue>
+      <description></description>
+      <id>057299a6-74d5-4526-8ec6-0728aa29e5c6</id>
+      <masked>false</masked>
+      <name>expectedAlpha2Code</name>
+   </variable>
+   <variable>
+      <defaultValue>'[Budapest]'</defaultValue>
+      <description></description>
+      <id>bd574783-9123-4ded-befa-b81ed8007f97</id>
+      <masked>false</masked>
+      <name>expectedCapitol</name>
+   </variable>
+   <variable>
+      <defaultValue>'[Europe]'</defaultValue>
+      <description></description>
+      <id>c7504b85-4f14-4e78-8364-ba328f8f35a0</id>
+      <masked>false</masked>
+      <name>expectedRegion</name>
+   </variable>
+   <variable>
+      <defaultValue>'[Eastern Europe]'</defaultValue>
+      <description></description>
+      <id>126fa6de-9a71-446f-a8bd-f30130a62470</id>
+      <masked>false</masked>
+      <name>expectedSubRegion</name>
+   </variable>
+</TestCaseEntity>

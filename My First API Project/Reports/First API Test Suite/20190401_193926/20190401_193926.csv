@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+First API Test Suite,,,2019-04-01 19:39:29,2019-04-01 19:39:34,4.982s,FAILED
+,,,,,,
+Test Cases/Testing the get names API call,,,2019-04-01 19:39:29,2019-04-01 19:39:34,4.483s,FAILED
+"response = sendRequest(findTestObject(""GET an Issue by key"", [""country"":country]))",,,2019-04-01 19:39:30,2019-04-01 19:39:34,3.936s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-04-01 19:39:34,2019-04-01 19:39:34,0.013s,PASSED
+"verifyElementPropertyValue(response, ""name"", expectedCountryName)",,,2019-04-01 19:39:34,2019-04-01 19:39:34,0.057s,PASSED
+"verifyElementPropertyValue(response, ""alpha2Code"", expectedAlpha2Code)",,,2019-04-01 19:39:34,2019-04-01 19:39:34,0.017s,PASSED
+"verifyElementPropertyValue(response, ""capital"", expectedCapitol)",,,2019-04-01 19:39:34,2019-04-01 19:39:34,0.020s,PASSED
+"verifyElementPropertyValue(response, ""region"", expectedRegion)",,,2019-04-01 19:39:34,2019-04-01 19:39:34,0.015s,PASSED
+"verifyElementPropertyValue(response, ""subregion"", expectedSubRegion)",,,2019-04-01 19:39:34,2019-04-01 19:39:34,0.035s,FAILED

@@ -1,0 +1,29 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+First API Test Suite,,,2019-04-01 19:55:20,2019-04-01 19:55:26,6.452s,PASSED
+,,,,,,
+Test Cases/Testing the get names API call,,,2019-04-01 19:55:20,2019-04-01 19:55:24,3.929s,PASSED
+"response = sendRequest(findTestObject(""GET an Issue by key"", [""country"":country]))",,,2019-04-01 19:55:20,2019-04-01 19:55:24,3.452s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-04-01 19:55:24,2019-04-01 19:55:24,0.010s,PASSED
+"verifyElementPropertyValue(response, ""name"", expectedCountryName)",,,2019-04-01 19:55:24,2019-04-01 19:55:24,0.050s,PASSED
+"verifyElementPropertyValue(response, ""alpha2Code"", expectedAlpha2Code)",,,2019-04-01 19:55:24,2019-04-01 19:55:24,0.019s,PASSED
+"verifyElementPropertyValue(response, ""capital"", expectedCapitol)",,,2019-04-01 19:55:24,2019-04-01 19:55:24,0.017s,PASSED
+"verifyElementPropertyValue(response, ""region"", expectedRegion)",,,2019-04-01 19:55:24,2019-04-01 19:55:24,0.017s,PASSED
+"verifyElementPropertyValue(response, ""subregion"", expectedSubRegion)",,,2019-04-01 19:55:24,2019-04-01 19:55:24,0.018s,PASSED
+,,,,,,
+Test Cases/Testing the get names API call,,,2019-04-01 19:55:24,2019-04-01 19:55:25,1.236s,PASSED
+"response = sendRequest(findTestObject(""GET an Issue by key"", [""country"":country]))",,,2019-04-01 19:55:24,2019-04-01 19:55:25,0.993s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-04-01 19:55:25,2019-04-01 19:55:25,0.003s,PASSED
+"verifyElementPropertyValue(response, ""name"", expectedCountryName)",,,2019-04-01 19:55:25,2019-04-01 19:55:25,0.018s,PASSED
+"verifyElementPropertyValue(response, ""alpha2Code"", expectedAlpha2Code)",,,2019-04-01 19:55:25,2019-04-01 19:55:25,0.164s,PASSED
+"verifyElementPropertyValue(response, ""capital"", expectedCapitol)",,,2019-04-01 19:55:25,2019-04-01 19:55:25,0.018s,PASSED
+"verifyElementPropertyValue(response, ""region"", expectedRegion)",,,2019-04-01 19:55:25,2019-04-01 19:55:25,0.013s,PASSED
+"verifyElementPropertyValue(response, ""subregion"", expectedSubRegion)",,,2019-04-01 19:55:25,2019-04-01 19:55:25,0.015s,PASSED
+,,,,,,
+Test Cases/Testing the get names API call,,,2019-04-01 19:55:25,2019-04-01 19:55:26,0.982s,PASSED
+"response = sendRequest(findTestObject(""GET an Issue by key"", [""country"":country]))",,,2019-04-01 19:55:25,2019-04-01 19:55:26,0.841s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-04-01 19:55:26,2019-04-01 19:55:26,0.006s,PASSED
+"verifyElementPropertyValue(response, ""name"", expectedCountryName)",,,2019-04-01 19:55:26,2019-04-01 19:55:26,0.045s,PASSED
+"verifyElementPropertyValue(response, ""alpha2Code"", expectedAlpha2Code)",,,2019-04-01 19:55:26,2019-04-01 19:55:26,0.032s,PASSED
+"verifyElementPropertyValue(response, ""capital"", expectedCapitol)",,,2019-04-01 19:55:26,2019-04-01 19:55:26,0.017s,PASSED
+"verifyElementPropertyValue(response, ""region"", expectedRegion)",,,2019-04-01 19:55:26,2019-04-01 19:55:26,0.014s,PASSED
+"verifyElementPropertyValue(response, ""subregion"", expectedSubRegion)",,,2019-04-01 19:55:26,2019-04-01 19:55:26,0.013s,PASSED

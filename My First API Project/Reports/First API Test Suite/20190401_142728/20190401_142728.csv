@@ -1,0 +1,6 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+First API Test Suite,,,2019-04-01 14:27:31,2019-04-01 14:27:36,4.652s,FAILED
+,,,,,,
+Test Cases/Testing the get names API call,,,2019-04-01 14:27:31,2019-04-01 14:27:35,4.157s,FAILED
+"response = sendRequest(findTestObject(""GET an Issue by key""))",,,2019-04-01 14:27:32,2019-04-01 14:27:35,3.800s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-04-01 14:27:35,2019-04-01 14:27:35,0.027s,FAILED

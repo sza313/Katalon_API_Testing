@@ -1,0 +1,8 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+New Test Suite,Chrome 73.0.3683.103,,2019-04-10 22:02:50,2019-04-10 22:03:36,46.059s,FAILED
+,,,,,,
+Test Cases/Select a Modell,Chrome 73.0.3683.103,,2019-04-10 22:02:50,2019-04-10 22:03:35,44.811s,FAILED
+"openBrowser("""")",Chrome 73.0.3683.103,,2019-04-10 22:02:50,2019-04-10 22:02:56,5.714s,PASSED
+"navigateToUrl(""https://www.bmw.com.au/en/all-models.html"")",Chrome 73.0.3683.103,,2019-04-10 22:02:56,2019-04-10 22:03:02,6.375s,PASSED
+"click(findTestObject(""Object Repository/Select Modell/Page_All Models/span_Hide""))",Chrome 73.0.3683.103,,2019-04-10 22:03:02,2019-04-10 22:03:03,0.236s,PASSED
+"click(findTestObject(""Object Repository/Select Modell/Page_All Models/img_Find out more_image-default ds2-model-card--street-lazy-load ds2-model-card--street-background-img loaded""))",Chrome 73.0.3683.103,,2019-04-10 22:03:03,2019-04-10 22:03:35,32.010s,FAILED

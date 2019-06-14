@@ -1,0 +1,21 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+First API Test Suite,,,2019-04-01 19:45:34,2019-04-01 19:45:41,6.566s,FAILED
+,,,,,,
+Test Cases/Testing the get names API call,,,2019-04-01 19:45:34,2019-04-01 19:45:39,4.494s,PASSED
+"response = sendRequest(findTestObject(""GET an Issue by key"", [""country"":country]))",,,2019-04-01 19:45:35,2019-04-01 19:45:39,4.014s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-04-01 19:45:39,2019-04-01 19:45:39,0.012s,PASSED
+"verifyElementPropertyValue(response, ""name"", expectedCountryName)",,,2019-04-01 19:45:39,2019-04-01 19:45:39,0.056s,PASSED
+"verifyElementPropertyValue(response, ""alpha2Code"", expectedAlpha2Code)",,,2019-04-01 19:45:39,2019-04-01 19:45:39,0.021s,PASSED
+"verifyElementPropertyValue(response, ""capital"", expectedCapitol)",,,2019-04-01 19:45:39,2019-04-01 19:45:39,0.019s,PASSED
+"verifyElementPropertyValue(response, ""region"", expectedRegion)",,,2019-04-01 19:45:39,2019-04-01 19:45:39,0.020s,PASSED
+"verifyElementPropertyValue(response, ""subregion"", expectedSubRegion)",,,2019-04-01 19:45:39,2019-04-01 19:45:39,0.020s,PASSED
+,,,,,,
+Test Cases/Testing the get names API call,,,2019-04-01 19:45:39,2019-04-01 19:45:40,0.905s,FAILED
+"response = sendRequest(findTestObject(""GET an Issue by key"", [""country"":country]))",,,2019-04-01 19:45:39,2019-04-01 19:45:40,0.854s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-04-01 19:45:40,2019-04-01 19:45:40,0.003s,PASSED
+"verifyElementPropertyValue(response, ""name"", expectedCountryName)",,,2019-04-01 19:45:40,2019-04-01 19:45:40,0.029s,FAILED
+,,,,,,
+Test Cases/Testing the get names API call,,,2019-04-01 19:45:40,2019-04-01 19:45:41,0.853s,FAILED
+"response = sendRequest(findTestObject(""GET an Issue by key"", [""country"":country]))",,,2019-04-01 19:45:40,2019-04-01 19:45:41,0.778s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-04-01 19:45:41,2019-04-01 19:45:41,0.006s,PASSED
+"verifyElementPropertyValue(response, ""name"", expectedCountryName)",,,2019-04-01 19:45:41,2019-04-01 19:45:41,0.052s,FAILED

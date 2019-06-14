@@ -1,0 +1,25 @@
+Suite/Test/Step Name,Browser,Description,Start time,End time,Duration,Status
+First API Test Suite,,,2019-04-01 19:53:00,2019-04-01 19:53:06,6.225s,FAILED
+,,,,,,
+Test Cases/Testing the get names API call,,,2019-04-01 19:53:00,2019-04-01 19:53:04,4.170s,PASSED
+"response = sendRequest(findTestObject(""GET an Issue by key"", [""country"":country]))",,,2019-04-01 19:53:01,2019-04-01 19:53:04,3.708s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-04-01 19:53:04,2019-04-01 19:53:04,0.011s,PASSED
+"verifyElementPropertyValue(response, ""name"", expectedCountryName)",,,2019-04-01 19:53:04,2019-04-01 19:53:04,0.058s,PASSED
+"verifyElementPropertyValue(response, ""alpha2Code"", expectedAlpha2Code)",,,2019-04-01 19:53:04,2019-04-01 19:53:04,0.022s,PASSED
+"verifyElementPropertyValue(response, ""capital"", expectedCapitol)",,,2019-04-01 19:53:04,2019-04-01 19:53:04,0.017s,PASSED
+"verifyElementPropertyValue(response, ""region"", expectedRegion)",,,2019-04-01 19:53:04,2019-04-01 19:53:04,0.017s,PASSED
+"verifyElementPropertyValue(response, ""subregion"", expectedSubRegion)",,,2019-04-01 19:53:04,2019-04-01 19:53:04,0.019s,PASSED
+,,,,,,
+Test Cases/Testing the get names API call,,,2019-04-01 19:53:05,2019-04-01 19:53:05,0.838s,FAILED
+"response = sendRequest(findTestObject(""GET an Issue by key"", [""country"":country]))",,,2019-04-01 19:53:05,2019-04-01 19:53:05,0.649s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-04-01 19:53:05,2019-04-01 19:53:05,0.002s,PASSED
+"verifyElementPropertyValue(response, ""name"", expectedCountryName)",,,2019-04-01 19:53:05,2019-04-01 19:53:05,0.174s,FAILED
+,,,,,,
+Test Cases/Testing the get names API call,,,2019-04-01 19:53:05,2019-04-01 19:53:06,0.859s,FAILED
+"response = sendRequest(findTestObject(""GET an Issue by key"", [""country"":country]))",,,2019-04-01 19:53:05,2019-04-01 19:53:06,0.702s,PASSED
+"verifyResponseStatusCode(response, 200)",,,2019-04-01 19:53:06,2019-04-01 19:53:06,0.011s,PASSED
+"verifyElementPropertyValue(response, ""name"", expectedCountryName)",,,2019-04-01 19:53:06,2019-04-01 19:53:06,0.044s,PASSED
+"verifyElementPropertyValue(response, ""alpha2Code"", expectedAlpha2Code)",,,2019-04-01 19:53:06,2019-04-01 19:53:06,0.025s,PASSED
+"verifyElementPropertyValue(response, ""capital"", expectedCapitol)",,,2019-04-01 19:53:06,2019-04-01 19:53:06,0.029s,PASSED
+"verifyElementPropertyValue(response, ""region"", expectedRegion)",,,2019-04-01 19:53:06,2019-04-01 19:53:06,0.013s,PASSED
+"verifyElementPropertyValue(response, ""subregion"", expectedSubRegion)",,,2019-04-01 19:53:06,2019-04-01 19:53:06,0.015s,FAILED

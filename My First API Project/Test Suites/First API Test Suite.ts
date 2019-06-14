@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>First API Test Suite</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <testSuiteGuid>53254aab-764b-4a5c-ac8e-765210ad6a82</testSuiteGuid>
+   <testCaseLink>
+      <guid>43ca2910-0f8e-4573-8d22-3c4fb27dcaa8</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <testCaseId>Test Cases/Testing the get names API call</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>e55a81d9-171c-4cf8-9c58-d9aaa015171e</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/TestData1</testDataId>
+      </testDataLink>
+      <variableLink>
+         <testDataLinkId>e55a81d9-171c-4cf8-9c58-d9aaa015171e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>country</value>
+         <variableId>cf0a5030-163f-4f2b-825b-4406f6622ef2</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e55a81d9-171c-4cf8-9c58-d9aaa015171e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedCountryName</value>
+         <variableId>2242c9b9-2e84-4478-94c7-6ab6ae6badd0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e55a81d9-171c-4cf8-9c58-d9aaa015171e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedAlpha2Code</value>
+         <variableId>057299a6-74d5-4526-8ec6-0728aa29e5c6</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e55a81d9-171c-4cf8-9c58-d9aaa015171e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedCapitol</value>
+         <variableId>bd574783-9123-4ded-befa-b81ed8007f97</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e55a81d9-171c-4cf8-9c58-d9aaa015171e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedRegion</value>
+         <variableId>c7504b85-4f14-4e78-8364-ba328f8f35a0</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>e55a81d9-171c-4cf8-9c58-d9aaa015171e</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>expectedSubRegion</value>
+         <variableId>126fa6de-9a71-446f-a8bd-f30130a62470</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

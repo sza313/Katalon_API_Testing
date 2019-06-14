@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="First API Test Suite" time="6" tests="3" failures="0" errors="0">
+   <testsuite name="First API Test Suite" tests="3" failures="0" errors="0" time="6" timestamp="2019-04-01 19:55:20" hostname="szabolcs.hudak - bdv7152mh2.dir.svc.accenture.com" id="Test Suites/First API Test Suite">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\szabolcs.hudak\\Katalon Studio\\My First API Project\\Reports\\First API Test Suite\\20190401_195517"/>
+         <property name="logFiles" value="C:\\Users\\szabolcs.hudak\\Katalon Studio\\My First API Project\\Reports\\First API Test Suite\\20190401_195517\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="szabolcs.hudak - bdv7152mh2.dir.svc.accenture.com"/>
+         <property name="hostAddress" value="192.168.43.34"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="6.1.0.1"/>
+      </properties>
+      <testcase name="Test Cases/Testing the get names API call" classname="Test Cases/Testing the get names API call" status="PASSED">
+         <system-out><![CDATA[2019-04-01 19:55:20 - [TEST_CASE][PASSED] - Test Cases/Testing the get names API call: Test Cases/Testing the get names API call
+
+2019-04-01 19:55:20 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("GET an Issue by key", ["country":country])): Send request successfully
+
+2019-04-01 19:55:24 - [MESSAGE][INFO] - HAR: C:\Users\szabolcs.hudak\Katalon Studio\My First API Project\Reports\First API Test Suite\20190401_195517\requests\main\0.har
+
+2019-04-01 19:55:24 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-01 19:55:24 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-04-01 19:55:24 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-01 19:55:24 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", expectedCountryName): Verify element property value successfully
+
+2019-04-01 19:55:24 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-01 19:55:24 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "alpha2Code", expectedAlpha2Code): Verify element property value successfully
+
+2019-04-01 19:55:24 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-01 19:55:24 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "capital", expectedCapitol): Verify element property value successfully
+
+2019-04-01 19:55:24 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-01 19:55:24 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "region", expectedRegion): Verify element property value successfully
+
+2019-04-01 19:55:24 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-01 19:55:24 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "subregion", expectedSubRegion): Verify element property value successfully
+
+2019-04-01 19:55:24 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing the get names API call" classname="Test Cases/Testing the get names API call" status="PASSED">
+         <system-out><![CDATA[2019-04-01 19:55:24 - [TEST_CASE][PASSED] - Test Cases/Testing the get names API call: Test Cases/Testing the get names API call
+
+2019-04-01 19:55:24 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("GET an Issue by key", ["country":country])): Send request successfully
+
+2019-04-01 19:55:25 - [MESSAGE][INFO] - HAR: C:\Users\szabolcs.hudak\Katalon Studio\My First API Project\Reports\First API Test Suite\20190401_195517\requests\main\1.har
+
+2019-04-01 19:55:25 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-01 19:55:25 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-04-01 19:55:25 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-01 19:55:25 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", expectedCountryName): Verify element property value successfully
+
+2019-04-01 19:55:25 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-01 19:55:25 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "alpha2Code", expectedAlpha2Code): Verify element property value successfully
+
+2019-04-01 19:55:25 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-01 19:55:25 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "capital", expectedCapitol): Verify element property value successfully
+
+2019-04-01 19:55:25 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-01 19:55:25 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "region", expectedRegion): Verify element property value successfully
+
+2019-04-01 19:55:25 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-01 19:55:25 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "subregion", expectedSubRegion): Verify element property value successfully
+
+2019-04-01 19:55:25 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Testing the get names API call" classname="Test Cases/Testing the get names API call" status="PASSED">
+         <system-out><![CDATA[2019-04-01 19:55:25 - [TEST_CASE][PASSED] - Test Cases/Testing the get names API call: Test Cases/Testing the get names API call
+
+2019-04-01 19:55:25 - [TEST_STEP][PASSED] - response = sendRequest(findTestObject("GET an Issue by key", ["country":country])): Send request successfully
+
+2019-04-01 19:55:26 - [MESSAGE][INFO] - HAR: C:\Users\szabolcs.hudak\Katalon Studio\My First API Project\Reports\First API Test Suite\20190401_195517\requests\main\2.har
+
+2019-04-01 19:55:26 - [MESSAGE][PASSED] - Send request successfully
+
+2019-04-01 19:55:26 - [TEST_STEP][PASSED] - verifyResponseStatusCode(response, 200): Verify response status code successfully
+
+2019-04-01 19:55:26 - [MESSAGE][PASSED] - Verify response status code successfully
+
+2019-04-01 19:55:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "name", expectedCountryName): Verify element property value successfully
+
+2019-04-01 19:55:26 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-01 19:55:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "alpha2Code", expectedAlpha2Code): Verify element property value successfully
+
+2019-04-01 19:55:26 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-01 19:55:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "capital", expectedCapitol): Verify element property value successfully
+
+2019-04-01 19:55:26 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-01 19:55:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "region", expectedRegion): Verify element property value successfully
+
+2019-04-01 19:55:26 - [MESSAGE][PASSED] - Verify element property value successfully
+
+2019-04-01 19:55:26 - [TEST_STEP][PASSED] - verifyElementPropertyValue(response, "subregion", expectedSubRegion): Verify element property value successfully
+
+2019-04-01 19:55:26 - [MESSAGE][PASSED] - Verify element property value successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-04-01 19:55:20 - [TEST_SUITE][PASSED] - First API Test Suite: Test Cases/Testing the get names API call]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
